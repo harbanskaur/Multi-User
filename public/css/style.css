@@ -1,0 +1,28 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    }
+    
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        padding-top: 3.5rem;
+        padding-bottom: 3.5rem;
+        box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+    }
+    
+    .sidebar h2 {
+        color: #333;
+    }
+    
+    .main-content {
+        margin-left: 200px;
+    }
+    
+    footer {
+        text-align: center;
+        color: #888;
+    }
